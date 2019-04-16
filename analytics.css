@@ -1,0 +1,158 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+header{
+  display: flex;
+}
+
+h1{
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+#return{
+  background-color: #0099cc;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  height: 27px;
+  width: 145px;
+  font-weight: bold;
+}
+
+hr{
+  border-style: dotted;
+  border-color: lightgrey;
+  width: 98%;
+}
+
+#date-options{
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+.button{
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+#date{
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+#line-graph{
+  display: flex;
+  justify-content: center;
+}
+
+#graphpng{
+  width: 80em;
+  height: 23em;
+}
+
+#overview-table{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+.overview-bits{
+  padding: 15px;
+  padding-left: 117px;
+  padding-right: 110px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  height: 5em;
+  display: inline-block;
+}
+
+.green-numbers{
+  font-size: 15px;
+  color: green;
+  display: inline;
+}
+
+.red-numbers{
+  font-size: 15px;
+  color: red;
+  display: inline;
+}
+
+.report{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom-tables{
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+#geolocation td, #bottom td{
+  border: 1px solid lightgrey;
+}
+
+th{
+  border: 1px solid lightgrey;
+  background-color: #e7f2fe;
+  width: 38em;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+#geo-table{
+  height: 25em;
+}
+
+#circle-graph{
+  width: 39em;
+}
+
+.geo-tabs{
+  height: 3em;
+  font-size: 20px;
+}
+
+.country{
+
+}
+
+.streams{
+  padding-left: 15px;
+}
+
+#bottom{
+  display: flex;
+  justify-content: center;
+}
+
+.square{
+  float: left;
+ width: 10px;
+ height: 10px;
+ margin: 5px;
+ border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #13b4ff;
+}
+/* NOTE: Put rest of colors for squares here */

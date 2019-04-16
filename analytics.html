@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="analytics.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Analytics</title>
+  </head>
+  <body>
+    <header>
+      <h1>Analytics</h1>
+      <button id="return" type="reset" name="return">Return to Channel</button>
+    </header>
+    <hr>
+    <section id="date-options">
+      <button class="button" type="button" name="button">Week</button>
+      <button class="button" type="button" name="button">Month</button>
+      <input id="date" type="date" value="2011-04-17">
+    </section>
+    <section id="line-graph">
+      <img src="line-graph.png" id="graphpng" alt="">
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <table id="overview-table">
+        <tr>
+         <td class="overview-bits">Total Viewer Minutes <br>
+             <b>4,288</b>
+             <div class="green-numbers">
+               ⬆  25%
+             </div>
+         </td>
+         <td class="overview-bits">Total Streams <br>
+             <b>1,215</b>
+             <div class="green-numbers">
+               ⬆  5%
+             </div>
+         </td>
+         <td class="overview-bits">Average Time per Viewer <br>
+           <b>00:00:54</b>
+           <div class="red-numbers">
+             ⬇ 5%
+           </div>
+         </td>
+         <td class="overview-bits">Total Unique Viewers <br>
+           <b>655</b>
+           <div class="red-numbers">
+             ⬇ 1%
+           </div>
+         </td>
+         <td class="overview-bits"> New visitors <br>
+           <b>54</b>
+           <div class="green-numbers">
+             ⬆ 2%
+           </div>
+         </td>
+        </tr>
+      </table>
+    </section>
+    <section id="geolocation">
+      <h2>Geolocation</h2>
+      <a href="#" class="report">View Full Report</a>
+      <table id="geo-table" class="bottom-tables">
+        <tr>
+          <th class="geo-head">Streams by Country</th>
+          <th class="geo-head">Country/Territory</th>
+          <th class="geo-head streams">Streams</th>
+        </tr>
+        <tr>
+          <td class="geo-tabs" rowspan="7"><img id="circle-graph" src="circle-graph.png" alt=""></td>
+          <td class="geo-tabs country">
+            <div class="square blue"></div>
+            United States <b>52%</b>
+          </td>
+          <td class="geo-tabs streams">314</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs country">
+            <div class="square green"></div>
+            Indonesia <b>12%</b>
+          </td>
+          <td class="geo-tabs streams">64</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs country">
+            <div class="square yellow"></div>
+            India <b>12%</b>
+          </td>
+          <td class="geo-tabs streams">51</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs country">
+            <div class="square orange"></div>
+            United Kingdom <b>10%</b>
+          </td>
+          <td class="geo-tabs streams">47</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs">
+            <div class="square red"></div>
+            Mexico <b>6%</b>
+          </td>
+          <td class="geo-tabs streams">44</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs country">
+            <div class="square purple"></div>
+            Spain <b>4%</b>
+          </td>
+          <td class="geo-tabs streams">37</td>
+        </tr>
+        <tr>
+          <td class="geo-tabs country">
+            <div class="square pink"></div>
+            Turkey <b>4%</b>
+          </td>
+          <td class="geo-tabs streams">34</td>
+        </tr>
+      </table>
+    </section>
+    <footer id="bottom">
+      <aside class="video-views">
+        <h2>Video Views</h2>
+        <a href="#" class="report">View Full Report</a>
+        <table id="video-views" class="bottom-tables">
+          <tr>
+            <th>Video Title</th>
+            <th>Views</th>
+          </tr>
+          <tr>
+            <td>Music Showreel</td>
+            <td>556</td>
+          </tr>
+          <tr>
+            <td>Livestream Production Music Showreel</td>
+            <td>537</td>
+          </tr>
+          <tr>
+            <td>Livestream - Facebook Promo</td>
+            <td>453</td>
+          </tr>
+          <tr>
+            <td>Facebook Promo</td>
+            <td>421</td>
+          </tr>
+          <tr>
+            <td>Music Showreel</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Livestream Facebook Promo</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Complete Livestream Showreel</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </aside>
+      <aside class="post-views">
+        <h2>Post Views</h2>
+        <a href="#" class="report">View Full Report</a>
+        <table id="post-views" class="bottom-tables">
+          <tr>
+            <th>Video Title</th>
+            <th>Views</th>
+          </tr>
+          <tr>
+            <td>Music Showreel</td>
+            <td>556</td>
+          </tr>
+          <tr>
+            <td>Livestream Production Music Showreel</td>
+            <td>537</td>
+          </tr>
+          <tr>
+            <td>Livestream - Facebook Promo</td>
+            <td>453</td>
+          </tr>
+          <tr>
+            <td>Facebook Promo</td>
+            <td>421</td>
+          </tr>
+          <tr>
+            <td>Music Showreel</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Livestream Facebook Promo</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Complete Livestream Showreel</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </aside>
+    </footer>
+  </body>
+</html>
