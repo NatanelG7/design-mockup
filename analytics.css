@@ -14,8 +14,9 @@ header{
 }
 
 h1{
-  padding-left: 15px;
+  padding-left: 20px;
   margin-top: 15px;
+  font-size: 3rem;
 }
 
 #return{
@@ -24,17 +25,18 @@ h1{
   border: 1px solid;
   border-radius: 5px;
   position: absolute;
-  right: 30px;
-  top: 40px;
-  height: 27px;
-  width: 145px;
+  right: 51px;
+  top: 50px;
+  height: 3rem;
+  width: 16rem;
   font-weight: bold;
+  font-size: 25px;
 }
 
 hr{
   border-style: dotted;
   border-color: lightgrey;
-  width: 98%;
+  width: 97%;
 }
 
 #date-options{
@@ -44,13 +46,20 @@ hr{
 }
 
 .button{
-  border-radius: 5px;
   border-collapse: collapse;
+  width: 9rem;
+  height: 3rem;
+  font-size: 23px;
 }
 
 #date{
   margin-left: 15px;
+  margin-right: 15px;
   border-radius: 5px;
+  width: 28rem;
+  font-size: 23px;
+  background-color: white;
+  border: 2px solid lightgrey;
 }
 
 #line-graph{
@@ -59,8 +68,8 @@ hr{
 }
 
 #graphpng{
-  width: 80em;
-  height: 23em;
+  width: 113em;
+  height: 35em;
 }
 
 #overview-table{
@@ -72,36 +81,47 @@ hr{
 }
 
 .overview-bits{
-  padding: 15px;
-  padding-left: 117px;
-  padding-right: 110px;
+  padding-top: 15px;
+  padding-left: 74px;
+  padding-right: 73px;
   text-align: center;
   border: 1px solid lightgrey;
   height: 5em;
   display: inline-block;
+  font-size: 25px;
+}
+
+.overview-numbers{
+  font-size: 42px;
+  font-weight: bold;
+  display: inline;
 }
 
 .green-numbers{
-  font-size: 15px;
+  font-size: 20px;
   color: green;
   display: inline;
+  font-weight: bold;
 }
 
 .red-numbers{
-  font-size: 15px;
+  font-size: 20px;
   color: red;
   display: inline;
+  font-weight: bold;
 }
 
-.report{
-  display: flex;
-  justify-content: flex-end;
+.geo-header{
+  display: inline-flex;
+  margin-left: 13px;
+  margin-bottom: 1px;
+  font-size: 40px;
 }
 
-.bottom-tables{
-  display: flex;
-  justify-content: center;
-  border-collapse: collapse;
+#geo-report{
+  position: relative;
+  left: 88rem;
+  font-size: 25px;
 }
 
 #geolocation td, #bottom td{
@@ -113,46 +133,107 @@ th{
   background-color: #e7f2fe;
   width: 38em;
   text-align: left;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 23px;
 
 }
 
 #geo-table{
   height: 25em;
+  padding-bottom: 5rem;
 }
 
 #circle-graph{
-  width: 39em;
+  width: 40em;
+}
+
+.geo-head{
+  padding: 15px;
 }
 
 .geo-tabs{
   height: 3em;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .country{
-
+  width: 20rem;
 }
 
 .streams{
   padding-left: 15px;
+  width: 15rem;
 }
 
-#bottom{
-  display: flex;
-  justify-content: center;
-}
 
 .square{
   float: left;
- width: 10px;
- height: 10px;
- margin: 5px;
- border: 1px solid rgba(0, 0, 0, .2);
+ width: 20px;
+ height: 20px;
+ margin: 15px;
+ border: 1px hidden rgba(0, 0, 0, .2);
 }
 
 .blue {
   background: #13b4ff;
 }
-/* NOTE: Put rest of colors for squares here */
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.orange{
+  background: orange;
+}
+
+.red{
+  background: red;
+}
+
+.purple{
+  background: purple;
+}
+
+.pink{
+  background: pink;
+}
+
+#bottom{
+  display: flex;
+}
+
+.bottom-header{
+  display: inline-flex;
+  margin-left: 13px;
+  margin-bottom: 1px;
+  font-size: 40px;
+}
+
+.report{
+  position: relative;
+  left: 30rem;
+  font-size: 25px;
+
+}
+
+.bottom-tables{
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+  margin: 15px;
+  font-size: 23px;
+}
+
+.video-title{
+  padding-left: 15px;
+}
+
+.views{
+  width: 15rem;
+  height: 3.5rem;
+  font-weight: bold;
+  padding-left: 15px;
+}

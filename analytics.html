@@ -15,7 +15,9 @@
     <section id="date-options">
       <button class="button" type="button" name="button">Week</button>
       <button class="button" type="button" name="button">Month</button>
-      <input id="date" type="date" value="2011-04-17">
+      <select id="date">
+        <option>04/17/2011 - 05/16/2011</option>
+      </select>
     </section>
     <section id="line-graph">
       <img src="line-graph.png" id="graphpng" alt="">
@@ -25,31 +27,31 @@
       <table id="overview-table">
         <tr>
          <td class="overview-bits">Total Viewer Minutes <br>
-             <b>4,288</b>
+             <div class="overview-numbers">4,288</div>
              <div class="green-numbers">
                ⬆  25%
              </div>
          </td>
          <td class="overview-bits">Total Streams <br>
-             <b>1,215</b>
+             <div class="overview-numbers">1,215</div>
              <div class="green-numbers">
                ⬆  5%
              </div>
          </td>
          <td class="overview-bits">Average Time per Viewer <br>
-           <b>00:00:54</b>
+           <div class="overview-numbers">00:00:54</div>
            <div class="red-numbers">
              ⬇ 5%
            </div>
          </td>
          <td class="overview-bits">Total Unique Viewers <br>
-           <b>655</b>
+           <div class="overview-numbers">655</div>
            <div class="red-numbers">
              ⬇ 1%
            </div>
          </td>
          <td class="overview-bits"> New visitors <br>
-           <b>54</b>
+           <div class="overview-numbers">54</div>
            <div class="green-numbers">
              ⬆ 2%
            </div>
@@ -58,8 +60,8 @@
       </table>
     </section>
     <section id="geolocation">
-      <h2>Geolocation</h2>
-      <a href="#" class="report">View Full Report</a>
+      <h2 class="geo-header">Geolocation</h2>
+      <a href="#" id="geo-report" class="geo-header">View Full Report</a>
       <table id="geo-table" class="bottom-tables">
         <tr>
           <th class="geo-head">Streams by Country</th>
@@ -120,78 +122,78 @@
     </section>
     <footer id="bottom">
       <aside class="video-views">
-        <h2>Video Views</h2>
-        <a href="#" class="report">View Full Report</a>
+        <h2 id="video-header" class="bottom-header">Video Views</h2>
+        <a href="#" class="bottom-header report" id="video-report">View Full Report</a>
         <table id="video-views" class="bottom-tables">
           <tr>
-            <th>Video Title</th>
-            <th>Views</th>
+            <th class="video-title">Video Title</th>
+            <th class="views">Views</th>
           </tr>
           <tr>
-            <td>Music Showreel</td>
-            <td>556</td>
+            <td class="video-title">Music Showreel</td>
+            <td class="views">556</td>
           </tr>
           <tr>
-            <td>Livestream Production Music Showreel</td>
-            <td>537</td>
+            <td class="video-title">Livestream Production Music Showreel</td>
+            <td class="views">537</td>
           </tr>
           <tr>
-            <td>Livestream - Facebook Promo</td>
-            <td>453</td>
+            <td class="video-title">Livestream - Facebook Promo</td>
+            <td class="views">453</td>
           </tr>
           <tr>
-            <td>Facebook Promo</td>
-            <td>421</td>
+            <td class="video-title">Facebook Promo</td>
+            <td class="views">421</td>
           </tr>
           <tr>
-            <td>Music Showreel</td>
-            <td>28</td>
+            <td class="video-title">Music Showreel</td>
+            <td class="views">28</td>
           </tr>
           <tr>
-            <td>Livestream Facebook Promo</td>
-            <td>2</td>
+            <td class="video-title">Livestream Facebook Promo</td>
+            <td class="views">2</td>
           </tr>
           <tr>
-            <td>Complete Livestream Showreel</td>
-            <td>1</td>
+            <td class="video-title">Complete Livestream Showreel</td>
+            <td class="views">1</td>
           </tr>
         </table>
       </aside>
       <aside class="post-views">
-        <h2>Post Views</h2>
-        <a href="#" class="report">View Full Report</a>
+        <h2 id="post-header" class="bottom-header">Post Views</h2>
+        <a href="#" class="bottom-header report">View Full Report</a>
         <table id="post-views" class="bottom-tables">
           <tr>
-            <th>Video Title</th>
-            <th>Views</th>
+            <th class="video-title">Video Title</th>
+            <th class="views">Views</th>
           </tr>
           <tr>
-            <td>Music Showreel</td>
-            <td>556</td>
+            <td class="video-title">Music Showreel</td>
+            <td class="views">556</td>
           </tr>
           <tr>
-            <td>Livestream Production Music Showreel</td>
-            <td>537</td>
+            <td class="video-title">Livestream Production Music Showreel</td>
+            <td class="views">537</td>
           </tr>
           <tr>
-            <td>Livestream - Facebook Promo</td>
-            <td>453</td>
+            <td class="video-title">Livestream - Facebook Promo</td>
+            <td class="views">453</td>
           </tr>
           <tr>
-            <td>Facebook Promo</td>
-            <td>421</td>
+            <td class="video-title">Facebook Promo</td>
+            <td class="views">421</td>
           </tr>
           <tr>
-            <td>Music Showreel</td>
-            <td>28</td>
+            <td class="video-title">Music Showreel</td>
+            <td class="views">28</td>
           </tr>
           <tr>
-            <td>Livestream Facebook Promo</td>
-            <td>2</td>
+            <td class="video-title">Livestream Facebook Promo</td>
+            <td class="views">2</td>
           </tr>
           <tr>
-            <td>Complete Livestream Showreel</td>
-            <td>1</td>
+            <td class="video-title">Complete Livestream Showreel</td>
+            <td class="views">1</td>
           </tr>
         </table>
       </aside>
